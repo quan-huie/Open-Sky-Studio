@@ -14,7 +14,7 @@ function NavBar() {
                 bg="light"
             >
                 {/* NavBar Logo */}
-                <Navbar.Brand>
+                <Navbar.Brand className = "navbar-item">
                     <Link to="/">
                         Open Sky Studio
                     </Link>
@@ -32,33 +32,32 @@ function NavBar() {
                     <Nav
                         className="mr-auto"
                     >
-                        <Nav.Link>
+                        <Nav.Link className = "navbar-item">
                             <Link to="/about">
                                 About Mia
                             </Link>
                         </Nav.Link>
-                        <Nav.Link>
+                        <Nav.Link className = "navbar-item">
 
-                            <Link to="/services">
+                            <Link to="/pilates">
                                 Pilates
                         </Link>
                         </Nav.Link>
 
-                        <Nav.Link>
-                            <Link to="/services">
+                        <Nav.Link className = "navbar-item">
+                            <Link to="/massage">
                                 Massage
                         </Link>
                         </Nav.Link>
 
-                        <Nav.Link>
+                        <Nav.Link className = "navbar-item">
 
                             <Link to="/services">
                                 Pricing
                         </Link>
                         </Nav.Link>
 
-                        <Nav.Link>
-
+                        <Nav.Link className = "navbar-item">
                             <Link to="/services">
                                 Contact Us
                             </Link>

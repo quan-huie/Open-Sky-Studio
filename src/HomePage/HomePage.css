@@ -10,6 +10,7 @@ p {
     padding-top: 1rem;
 }
 
+
 .banner{
     height:10rem;
     width: 100%;
@@ -38,15 +39,8 @@ p {
  }
 
 .studio-section{
-    /* padding: 1rem 10rem; */
+    padding: 5rem 10rem;
  }
-
-.studio-slideshow{
-    padding-left: 5rem;
-    padding-right: 5rem;
-
-
-}
 
 @media (max-width: 900px) {
     .carousel {
@@ -55,3 +49,13 @@ p {
       padding: 5rem;
     }
 }
+
+.services-section {
+    padding: 0 20rem;
+}
+
+.card {
+    width:50%;
+}
+
+
