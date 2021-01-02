@@ -11,7 +11,7 @@ p {
 }
 
 .banner{
-    height:15rem;
+    height:10rem;
     width: 100%;
 }
 
@@ -42,7 +42,9 @@ p {
  }
 
 .studio-slideshow{
-    padding: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
 
 }
 
