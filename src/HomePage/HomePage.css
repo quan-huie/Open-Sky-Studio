@@ -1,0 +1,55 @@
+h1{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+ }
+
+p {
+    font-size: large;
+    padding-top: 1rem;
+}
+
+.banner{
+    height:15rem;
+    width: 100%;
+}
+
+.index-intro{
+    width:100%;
+    background-color: #f3f3f3;
+}
+
+.index-intro .jumbotron {
+    padding: 0px;
+}
+
+.banner-image {
+    position: relative;
+    width: 100%; /* for IE 6 */
+ }
+
+ .banner-title{
+     color: white;
+     position: absolute;
+     top: 40%;
+     left: 0;
+     width: 100%;
+ }
+
+.studio-section{
+    /* padding: 1rem 10rem; */
+ }
+
+.studio-slideshow{
+    padding: 5rem;
+
+}
+
+@media (max-width: 900px) {
+    .carousel {
+      width:auto;
+      height:auto;
+      padding: 5rem;
+    }
+}
