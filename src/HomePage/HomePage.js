@@ -2,17 +2,26 @@ import React from 'react';
 import './HomePage.css';
 import banner from '../images/open-sky-banner.jpg';
 
+import { Link } from 'react-router-dom';
+
+//Carousel
 import Carousel from 'react-bootstrap/Carousel';
 import studioImage1 from '../images/studio-img-1.jpg';
 import studioImage2 from '../images/studio-img-2.jpg';
 import studioImage3 from '../images/studio-img-3.jpg';
+// import CardComponent from '../components/CardComponent';
+
+//Card
+import {Card, CardDeck} from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+
 
 function HomePage() {
     return (
         <div className="HomePage">
             {/* <img className="banner" src={banner}alt="open-sky-banner"></img> */}
             <div className="">
-                <article className="index-intro">
+                {/* <article className="index-intro">
                     <div className="jumbotron">
                         <div className="banner-image">
                             <img className="banner"
@@ -22,9 +31,36 @@ function HomePage() {
                             <h1 className="banner-title">Open Sky Studio</h1>
                         </div>
                     </div>
-                </article>
+                </article> */}
 
             </div>
+
+            <div className="studio-slideshow">
+                <Carousel>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={studioImage1}
+                            alt="studio image with reformers"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={studioImage2}
+                            alt="studio image with reformers no painting"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={studioImage3}
+                            alt="Third slide"
+                        />
+                    </Carousel.Item>
+                </Carousel>
+            </div>
+
             <div className="studio-section">
 
                 <div className="studio-slideshow">
@@ -64,6 +100,7 @@ function HomePage() {
                 </div>
             </div>
 
+            {/* <Footer/> */}
 
         </div>
     );

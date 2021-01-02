@@ -9,7 +9,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 //page components
 import AboutPage from './AboutMe/AboutMe';
 import HomePage from './HomePage/HomePage';
-import ServicesPage from './ServicesPage/ServicesPage';
+import PilatesInfoPage from './ServicesPage/PilatesInfoPage';
+import MassageInfoPage from './ServicesPage/MassageInfoPage';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomePage}></Route>
           <Route exact path="/about" component={AboutPage}></Route>
-          <Route exact path="/services" component={ServicesPage}></Route>
+          <Route exact path="/pilates" component={PilatesInfoPage}></Route>
+          <Route exact path="/massage" component={MassageInfoPage}></Route>
         </Switch>
       </div>
     </Router>
