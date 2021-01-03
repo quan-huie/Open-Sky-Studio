@@ -12,7 +12,7 @@ import studioImage3 from '../images/studio-img-3.jpg';
 // import CardComponent from '../components/CardComponent';
 
 //Card
-import {Card, CardDeck} from 'react-bootstrap';
+import { Card, CardDeck } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 
 
@@ -120,14 +120,9 @@ function HomePage() {
                 </Card>
                 </CardDeck>
 
-
-
-
             </div>
 
-            {/* <Footer/> */}
-
-        </div>
+        </div >
     );
 }
 
