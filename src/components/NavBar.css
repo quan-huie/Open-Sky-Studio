@@ -1,7 +1,14 @@
 a{
   color: #696969;
+  letter-spacing: 5px;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 a:hover{
   color: #D3D3D3;
+}
+
+.navbar-nav {
+
 }

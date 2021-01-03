@@ -2,7 +2,6 @@ import React from 'react';
 import './HomePage.css';
 import banner from '../images/open-sky-banner.jpg';
 
-import Footer from '../components/Footer.js';
 
 import { Link } from 'react-router-dom';
 
@@ -162,13 +161,15 @@ function HomePage() {
             <div className = "about-mia" >
                 <h2>About Mia</h2>
                 <p className="studio-description" >
-                    Mia is the owner/director of Open Sky Studio
-                    and has an extensive background in bodywork
-                    and wellness. She studied Pilates in New York
-                    City with Romana Kryzanowska (personally chosen
-                    by Joseph Pilates to be the custodian of his entire
-                    body of work) for three years and became certified by
-                    Romana in Authentic Pilates in 1992.
+                    Mia is continually growing and
+                    evolving her skills. She has spent
+                    her entire life dedicated to helping
+                     others to become the best versions
+                     of themselves. Her intention is to
+                     deeply listen and help every client
+                     feel better on every level for having
+                      spent time in her studio.
+
                 </p>
                 <Button variant="gold">Learn More</Button>
             </div>
