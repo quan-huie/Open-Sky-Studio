@@ -12,7 +12,7 @@ import studioImage3 from '../images/studio-img-3.jpg';
 // import CardComponent from '../components/CardComponent';
 
 //Card
-import {Card, CardDeck} from 'react-bootstrap';
+import { Card, CardDeck } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 
 
@@ -96,13 +96,58 @@ function HomePage() {
                     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-                </div>
+                </p>
             </div>
 
-            {/* <Footer/> */}
+            <div className="services-section">
+                <h2>Services</h2>
+                {/* CardComponent("Pilates", "test", "/pilates"); */}
+                <style type="text/css">
+                    {`
+                        .btn-gold {
+                        background-color: #dd9866;
+                        color: white;
+                        }
+                    `}
+                </style>
+                <CardDeck>
+                <Card className="services-card" style={{ width: '10rem', }}>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Body>
+                        <Card.Title>Pilates</Card.Title>
+                        <Card.Text>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </Card.Text>
+                        <Link to="/pilates">
+                            <Button variant="gold">
+                                Learn More
+                            </Button>
+                        </Link>
+                    </Card.Body>
+                </Card>
 
-        </div>
+
+                <Card className="services-card" style={{ width: '10rem', }}>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Body>
+                        <Card.Title>Massage</Card.Title>
+                        <Card.Text>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </Card.Text>
+                        <Link to="/massage">
+                            <Button variant="gold">
+                                Learn More
+                            </Button>
+                        </Link>
+                    </Card.Body>
+                </Card>
+                </CardDeck>
+
+            </div>
+
+        </div >
     );
 }
 
