@@ -2,6 +2,7 @@ import React from 'react';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap/';
+import logo from '../images/logo.png';
 
 
 function NavBar() {
@@ -16,15 +17,14 @@ function NavBar() {
                 {/* NavBar Logo */}
                 <Navbar.Brand className = "navbar-item">
                     <Link to="/">
-                        Open Sky Studio
-                    </Link>
-                    {/* <img
+                    <img
                     alt=""
-                    src={}
-                    width="30"
-                    height="30"
+                    src={logo}
+                    width="165"
+                    height="75"
                     className="d-inline-block align-top"
-                    />{' '} */}
+                    />{' '}
+                    </Link>
 
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -52,15 +52,13 @@ function NavBar() {
 
                         <Nav.Link className = "navbar-item">
 
-                            <Link to="/services">
+                            <Link to="/pricing">
                                 Pricing
                         </Link>
                         </Nav.Link>
 
-                        <Nav.Link className = "navbar-item">
-                            <Link to="/services">
+                        <Nav.Link className = "navbar-item" href ="#contact">
                                 Contact Us
-                            </Link>
                         </Nav.Link>
 
                     </Nav>

@@ -42,6 +42,13 @@ p {
     padding: 5rem 10rem;
  }
 
+ .studio-description {
+    padding: 1rem 5rem;
+
+ }
+
+
+
 @media (max-width: 900px) {
     .carousel {
       width:auto;
@@ -51,11 +58,19 @@ p {
 }
 
 .services-section {
-    padding: 0 20rem;
+    padding: 0 15%;
 }
 
 .card {
-    width:50%;
+    width:100%;
+}
+
+.card-deck {
+    padding-top: 3rem;
+}
+
+.about-mia {
+    padding: 5rem;
 }
 
 
