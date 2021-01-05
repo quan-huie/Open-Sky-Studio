@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  line-height: 2;
 }
 
 .App-logo {
@@ -39,4 +40,5 @@
 
 h2{
   letter-spacing: 50px;
+  width: auto;
 }

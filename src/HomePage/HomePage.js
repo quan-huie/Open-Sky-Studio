@@ -1,7 +1,5 @@
 import React from 'react';
 import './HomePage.css';
-import banner from '../images/open-sky-banner.jpg';
-
 
 import { Link } from 'react-router-dom';
 
@@ -25,21 +23,6 @@ import stretching from '../images/stretching.jpg';
 function HomePage() {
     return (
         <div className="HomePage">
-            {/* <img className="banner" src={banner}alt="open-sky-banner"></img> */}
-            <div className="">
-                {/* <article className="index-intro">
-                    <div className="jumbotron">
-                        <div className="banner-image">
-                            <img className="banner"
-                                src={banner}
-                                alt="open-sky-banner">
-                            </img>
-                            <h1 className="banner-title">Open Sky Studio</h1>
-                        </div>
-                    </div>
-                </article> */}
-
-            </div>
 
             <div className="studio-slideshow">
                 <Carousel>
@@ -69,7 +52,7 @@ function HomePage() {
 
             <div className="studio-section">
 
-                    <h2 className="header">The Studio</h2>
+                <h2 className="header">The Studio</h2>
                 <p className="studio-description">
                     Established in 1995 in Wallingford as Legacy
                     Pilates as an authentic, classical Pilates Studio
@@ -101,74 +84,74 @@ function HomePage() {
                     `}
                 </style>
                 <CardDeck>
-                <Card className="services-card" style={{ width: '15rem', }}>
-                    <Card.Img variant="top" src={pilates} />
-                    <Card.Body>
-                        <Card.Title>PILATES</Card.Title>
-                        <Card.Text>
-                        A exercise method
-                        started that
-                        focuses on flexibility, strength and posture.
-                        Every exercise is designed to provide ease
-                        and efficiency and movement.
+                    <Card className="services-card" style={{ width: '15rem', }}>
+                        <Card.Img variant="top" src={pilates} />
+                        <Card.Body>
+                            <Card.Title>PILATES</Card.Title>
+                            <Card.Text>
+                                A exercise method
+                                started that
+                                focuses on flexibility, strength and posture.
+                                Every exercise is designed to provide ease
+                                and efficiency and movement.
                         </Card.Text>
-                        <Link to="/pilates">
-                            <Button variant="gold">
-                                Learn More
+                            <Link to="/pilates">
+                                <Button variant="gold">
+                                    Learn More
                             </Button>
-                        </Link>
-                    </Card.Body>
-                </Card>
+                            </Link>
+                        </Card.Body>
+                    </Card>
 
 
-                <Card className="services-card" style={{ width: '10rem', }}>
-                    <Card.Img variant="top" src={massage} />
-                    <Card.Body>
-                        <Card.Title>MASSAGE</Card.Title>
-                        <Card.Text className="card-text">
-                            We offer multiple forms of massage such as
-                            Swedish Massage, Deep Tissue Massage, and
-                            Thai Yoga Massage.
+                    <Card className="services-card" style={{ width: '10rem', }}>
+                        <Card.Img variant="top" src={massage} />
+                        <Card.Body>
+                            <Card.Title>MASSAGE</Card.Title>
+                            <Card.Text className="card-text">
+                                We offer multiple forms of massage such as
+                                Swedish Massage, Deep Tissue Massage, and
+                                Thai Yoga Massage.
                         </Card.Text>
-                        <Link to="/massage">
-                            <Button variant="gold">
-                                Learn More
+                            <Link to="/massage">
+                                <Button variant="gold">
+                                    Learn More
                             </Button>
-                        </Link>
-                    </Card.Body>
-                </Card>
+                            </Link>
+                        </Card.Body>
+                    </Card>
 
-                <Card className="services-card" style={{ width: '10rem', }}>
-                    <Card.Img variant="top" src={stretching} />
-                    <Card.Body>
-                        <Card.Title>STRETCHING</Card.Title>
-                        <Card.Text className="card-text">
-                        Sessions incorporate everything
-                        in the entire studio with the emphasis on
-                        becoming more flexible.
+                    <Card className="services-card" style={{ width: '10rem', }}>
+                        <Card.Img variant="top" src={stretching} />
+                        <Card.Body>
+                            <Card.Title>STRETCHING</Card.Title>
+                            <Card.Text className="card-text">
+                                Sessions incorporate everything
+                                in the entire studio with the emphasis on
+                                becoming more flexible.
                         </Card.Text>
-                        <Link to="/">
-                            <Button variant="gold">
-                                Learn More
+                            <Link to="/">
+                                <Button variant="gold">
+                                    Learn More
                             </Button>
-                        </Link>
-                    </Card.Body>
-                </Card>
+                            </Link>
+                        </Card.Body>
+                    </Card>
                 </CardDeck>
 
             </div>
 
-            <div className = "about-mia" >
+            <div className="about-mia" >
                 <h2>About Mia</h2>
                 <p className="studio-description" >
                     Mia is continually growing and
                     evolving her skills. She has spent
                     her entire life dedicated to helping
-                     others to become the best versions
-                     of themselves. Her intention is to
-                     deeply listen and help every client
-                     feel better on every level for having
-                      spent time in her studio.
+                    others to become the best versions
+                    of themselves. Her intention is to
+                    deeply listen and help every client
+                    feel better on every level for having
+                    spent time in her studio.
 
                 </p>
                 <Button variant="gold">Learn More</Button>
