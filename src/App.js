@@ -11,6 +11,8 @@ import HomePage from './HomePage/HomePage';
 import PricingPage from './PricingPage/PricingPage';
 import PilatesInfoPage from './ServicesPage/PilatesInfoPage';
 import MassageInfoPage from './ServicesPage/MassageInfoPage';
+import StretchingInfoPage from './ServicesPage/StretchingInfoPage';
+
 
 function App() {
   return (
@@ -20,9 +22,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomePage}></Route>
           <Route exact path="/about" component={AboutPage}></Route>
-          <Route exact path="/massage" component={PricingPage}></Route>
+          <Route exact path="/pricing" component={PricingPage}></Route>
           <Route exact path="/pilates" component={PilatesInfoPage}></Route>
           <Route exact path="/massage" component={MassageInfoPage}></Route>
+          <Route exact path="/stretching" component={StretchingInfoPage}></Route>
 
         </Switch>
         <div id = "contact">

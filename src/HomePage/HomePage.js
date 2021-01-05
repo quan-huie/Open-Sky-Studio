@@ -30,21 +30,21 @@ function HomePage() {
                         <img
                             className="d-block w-100"
                             src={studioImage1}
-                            alt="studio image with reformers"
+                            alt="studio with reformers"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
                             src={studioImage2}
-                            alt="studio image with reformers no painting"
+                            alt="studio with reformers no painting"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
                             src={studioImage3}
-                            alt="Third slide"
+                            alt="reformer"
                         />
                     </Carousel.Item>
                 </Carousel>
@@ -130,7 +130,7 @@ function HomePage() {
                                 in the entire studio with the emphasis on
                                 becoming more flexible.
                         </Card.Text>
-                            <Link to="/">
+                            <Link to="/stretching">
                                 <Button variant="gold">
                                     Learn More
                             </Button>
@@ -156,6 +156,23 @@ function HomePage() {
                 </p>
                 <Button variant="gold">Learn More</Button>
             </div>
+
+            {/* <div id="testimonials">
+                <Carousel>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                            <h3>First slide label</h3>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+
+                    </Carousel.Item>
+                    <Carousel.Item>
+
+                    </Carousel.Item>
+                </Carousel>
+            </div> */}
 
         </div >
     );

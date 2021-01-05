@@ -73,4 +73,10 @@ p {
     padding: 5% 15%;
 }
 
+#testimonials {
+    text-align: center;
+    background-color: #ddce7b;
+    color: rgb(0, 0, 0);
+}
+
 
