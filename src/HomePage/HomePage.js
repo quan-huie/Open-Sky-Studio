@@ -74,12 +74,16 @@ function HomePage() {
 
             <div className="services-section">
                 <h2>Services</h2>
-                {/* CardComponent("Pilates", "test", "/pilates"); */}
+                {/* Create a new style variant that can be used in bootstrap */}
                 <style type="text/css">
                     {`
                         .btn-gold {
-                        background-color: #dd9866;
+                        background-color: #e3ba9d;
                         color: white;
+                        }
+
+                        .btn:hover {
+                            color: #e1cec1;
                         }
                     `}
                 </style>
@@ -90,7 +94,7 @@ function HomePage() {
                             <Card.Title>PILATES</Card.Title>
                             <Card.Text>
                                 A exercise method
-                                started that
+                                that
                                 focuses on flexibility, strength and posture.
                                 Every exercise is designed to provide ease
                                 and efficiency and movement.
@@ -154,25 +158,85 @@ function HomePage() {
                     spent time in her studio.
 
                 </p>
-                <Button variant="gold">Learn More</Button>
-            </div>
 
-            {/* <div id="testimonials">
+
+                <div id="testimonials">
                 <Carousel>
                     <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src=""
+                            alt=" "
+                        />
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>“I was Mia’s first massage client over 22 years ago and am still.
+                                I cannot recommend her highly enough. I would give her 6 stars out of 5.”</h3>
+                            <p><em>- Paul V.</em></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src="holder.js/800x400?text=Second slide&bg=282c34"
+                            alt=" "
+                        />
 
+                        <Carousel.Caption>
+                            <h3>
+                                “Mia is a treasure.  Her vision, talent and wisdom as a
+                                teacher/guide are pitch perfect.
+                                She has a fierce ability to love her clients through the
+                                 seemingly impossible parts. Her faith in us makes doing
+                                 the ‘hard stuff’ possible and even joyful”
+                            </h3>
+                            <p><em>- Jan E.</em></p>
+                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src="holder.js/800x400?text=Third slide&bg=20232a"
+                            alt=" "
+                        />
 
+                        <Carousel.Caption>
+                            <h3>“I have enjoyed the benefits of Mia’s truly expert instruction
+                                in the Pilates method, as well as traditional and Thai yoga
+                                massage.  It has been my good fortune to study with such an
+                                outstanding teacher for the past 24 years”</h3>
+                            <p><em>- Nancy V.</em></p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src="holder.js/800x400?text=Third slide&bg=20232a"
+                            alt=" "
+                        />
+
+                        <Carousel.Caption>
+                            <h3 className = "fourth-testimonial">
+                                "Mia is an experienced, skillful and astute Pilates
+                                instructor. She meets you right where you are and
+                                creates a detailed workout tailored to fit your
+                                needs and provide the appropriate amount of
+                                challenge.  Mia is thoughtful, patient, funny,
+                                and, intuitive. I feel grateful for the opportunity
+                                to work consistently with her and develop new
+                                healing patterns in my body these past few years."
+                            </h3>
+                            <p><em>- Kimberly R.</em></p>
+                        </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-            </div> */}
+            </div>
+
+                <Link to="/about">
+                    <Button variant="gold">Learn More</Button>
+                </Link>
+            </div>
+
+
 
         </div >
     );

@@ -33,18 +33,18 @@ function AboutPage() {
       </p>
 
       <p>
-        After traveling to Rishekesh India for an intensive 6
-        week Yoga certification, Mia decided to focus her energy
-        on a deeper, more meaningful pursuit than physical fitness.
-        In the same way that she finally understood that Yoga
-        eventually leads to stillness, meditation and quieting
-        the mind, she now see’s how the fitness world she had
-        identified so deeply with is entrenched in diet culture.
-        Mia is dedicated to offering a space that does not focus
-        on the pursuit of thinness and calling it wellness.
-        Focusing on her own relationship with food, exercise
-        and her weight has illuminated a deep desire to help
-        others find peace in their bodies.
+        After traveling to Rishekesh, India for an intensive
+        6 week Yoga certification, Mia decided to focus her
+        energy on a deeper, more meaningful pursuit than
+        superficial physical fitness. She appreciated that
+        Yoga was so much deeper than an exercise method
+        & that ultimately it leads to stillness, meditation
+        and quieting the mind. Mia is dedicated to offering
+        a space that does not focus on the pursuit of thinness
+        and calling it wellness. Focusing on her own relationship
+        with food, exercise and her weight has illuminated a
+        deep desire to help others find peace in their bodies
+        & to be present & content with what is.
       </p>
       </div>
 

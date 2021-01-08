@@ -8,7 +8,7 @@ function PricingPage() {
         <div className = "pricing-section">
           <h3>Pilates</h3>
           <p>PILATES private lesson (50 min) $75</p>
-          <p>PILATES duet lesson (50min) $5</p>
+          <p>PILATES duet lesson (50min) $50</p>
 
         </div>
 
