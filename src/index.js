@@ -4,7 +4,6 @@ import './index.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
-// import HomePage from './HomePage/HomePage.js';
 import App from './App'
 import * as serviceWorker from './serviceWorker';
 
