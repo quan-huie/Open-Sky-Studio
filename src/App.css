@@ -1,12 +1,13 @@
 h2 {
-  font-size: calc(1em + 1vw);
+  font-size: 1em;
   text-align: center;
   padding: 5%;
   line-height: 2;
+  letter-spacing: 6vw;
 }
 
 h5 {
-  font-size: calc(1em + 1vw);
+  font-size: 1em;
 }
 
 .App {
@@ -40,7 +41,3 @@ h5 {
   }
 }
 
-h2{
-  letter-spacing: 6vw;
-  width: auto;
-}
