@@ -80,15 +80,15 @@ function HomePage() {
                     </Col>
 
                 </Row>
+            </Container>
+
+            <Container>
                 <Row>
                     <Col className="studio-section">
                         <h5><em>“A PLACE TO COME HOME TO YOURSELF”</em></h5>
                     </Col>
                 </Row>
             </Container>
-
-
-
 
             <Container>
                 <Row>
@@ -112,7 +112,7 @@ function HomePage() {
 
                 <Row>
                     <CardGroup>
-                        <Col xs={12} lg={4}>
+                        <Col xs={12} md={4} lg={4}>
                             <Card>
                                 <Card.Img variant="top" src={pilates} alt="A person teaching pilates"/>
                                 <Card.Body>
@@ -133,7 +133,7 @@ function HomePage() {
                             </Card>
                         </Col>
 
-                        <Col xs={12} lg={4}>
+                        <Col xs={12} md={4} lg={4}>
                             <Card>
                                 <Card.Img variant="top" src={massage} alt="A person recieving a massage"/>
                                 <Card.Body>
@@ -152,7 +152,7 @@ function HomePage() {
                             </Card>
                         </Col>
 
-                        <Col xs={12} lg={4}>
+                        <Col xs={12} md={4} lg={4}>
 
                             <Card>
                                 <Card.Img variant="top" src={stretching} alt="A person stretchiing"/>
