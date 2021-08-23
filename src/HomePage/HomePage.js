@@ -10,9 +10,6 @@ import studioImage1 from '../images/studio-img-1.jpg';
 import studioImage2 from '../images/studio-img-2.jpg';
 import studioImage3 from '../images/studio-img-3.jpg';
 
-
-// import CardComponent from '../components/CardComponent';
-
 //Card
 import Button from 'react-bootstrap/Button';
 import pilates from '../images/pilates.jpg';
