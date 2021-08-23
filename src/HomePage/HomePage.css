@@ -75,6 +75,10 @@ h3 {
     padding-top: 3rem;
 }
 
+.col-lg-4.col-12 {
+    padding-bottom: 5%;
+}
+
 /* ****About Section**** */
 
 .about-mia {
@@ -98,7 +102,7 @@ h3 {
 }
 
 #testimonials h3 {
-    font-size: 1.5rem;
+    font-size: calc(0.75em + 1vw);
 }
 
 /* Used to change the color of the indicators by changing the bootstrap icon */

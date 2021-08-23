@@ -10,9 +10,6 @@ import studioImage1 from '../images/studio-img-1.jpg';
 import studioImage2 from '../images/studio-img-2.jpg';
 import studioImage3 from '../images/studio-img-3.jpg';
 
-
-// import CardComponent from '../components/CardComponent';
-
 //Card
 import Button from 'react-bootstrap/Button';
 import pilates from '../images/pilates.jpg';
@@ -117,7 +114,7 @@ function HomePage() {
                     <CardGroup>
                         <Col xs={12} lg={4}>
                             <Card>
-                                <Card.Img variant="top" src={pilates} />
+                                <Card.Img variant="top" src={pilates} alt="A person teaching pilates"/>
                                 <Card.Body>
                                     <Card.Title>PILATES</Card.Title>
                                     <Card.Text>
@@ -138,7 +135,7 @@ function HomePage() {
 
                         <Col xs={12} lg={4}>
                             <Card>
-                                <Card.Img variant="top" src={massage} />
+                                <Card.Img variant="top" src={massage} alt="A person recieving a massage"/>
                                 <Card.Body>
                                     <Card.Title>MASSAGE</Card.Title>
                                     <Card.Text className="card-text">
@@ -158,7 +155,7 @@ function HomePage() {
                         <Col xs={12} lg={4}>
 
                             <Card>
-                                <Card.Img variant="top" src={stretching} />
+                                <Card.Img variant="top" src={stretching} alt="A person stretchiing"/>
                                 <Card.Body>
                                     <Card.Title>STRETCHING</Card.Title>
                                     <Card.Text className="card-text">
