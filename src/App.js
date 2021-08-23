@@ -26,7 +26,6 @@ function App() {
           <Route exact path="/pilates" component={PilatesInfoPage}></Route>
           <Route exact path="/massage" component={MassageInfoPage}></Route>
           <Route exact path="/stretching" component={StretchingInfoPage}></Route>
-
         </Switch>
         <div id = "contact">
             <Footer/>
