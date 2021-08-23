@@ -116,7 +116,7 @@ function HomePage() {
                 <Row>
                     <CardGroup>
                         <Col xs={12} lg={4}>
-                            <Card className="services-card">
+                            <Card>
                                 <Card.Img variant="top" src={pilates} />
                                 <Card.Body>
                                     <Card.Title>PILATES</Card.Title>
@@ -137,7 +137,7 @@ function HomePage() {
                         </Col>
 
                         <Col xs={12} lg={4}>
-                            <Card className="services-card" style={{ width: '10rem', }}>
+                            <Card>
                                 <Card.Img variant="top" src={massage} />
                                 <Card.Body>
                                     <Card.Title>MASSAGE</Card.Title>
@@ -157,7 +157,7 @@ function HomePage() {
 
                         <Col xs={12} lg={4}>
 
-                            <Card className="services-card" style={{ width: '10rem', }}>
+                            <Card>
                                 <Card.Img variant="top" src={stretching} />
                                 <Card.Body>
                                     <Card.Title>STRETCHING</Card.Title>
