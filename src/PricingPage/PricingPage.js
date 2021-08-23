@@ -14,8 +14,8 @@ function PricingPage() {
 
         <div className = "pricing-section">
           <h3>Massage</h3>
-          <p>MASSAGE classic or Thai Yoga (60min) $100</p>
-          <p>MASSAGE classic or Thai Yoga (90min) $130</p>
+          <p>MASSAGE classic or Thai Yoga (60min) $115</p>
+          <p>MASSAGE classic or Thai Yoga (90min) $150</p>
         </div>
 
         <div className = "pricing-section">
