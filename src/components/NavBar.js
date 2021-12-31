@@ -41,8 +41,8 @@ function NavBar() {
                                     </Nav.Link>
                                     <Nav.Link className="navbar-item">
 
-                                        <Link to="/pilates">
-                                            Pilates
+                                        <Link to="/movement">
+                                            Movement
                                         </Link>
                                     </Nav.Link>
 
@@ -54,8 +54,8 @@ function NavBar() {
 
                                     <Nav.Link className="navbar-item">
 
-                                        <Link to="/stretching">
-                                            Stretching
+                                        <Link to="/meditation">
+                                            Meditation
                                         </Link>
                                     </Nav.Link>
 

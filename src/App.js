@@ -9,9 +9,9 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import AboutPage from './AboutMe/AboutMe';
 import HomePage from './HomePage/HomePage';
 import PricingPage from './PricingPage/PricingPage';
-import PilatesInfoPage from './ServicesPage/PilatesInfoPage';
+import MovementInfoPage from './ServicesPage/MovementInfoPage';
 import MassageInfoPage from './ServicesPage/MassageInfoPage';
-import StretchingInfoPage from './ServicesPage/StretchingInfoPage';
+import MeditationInfoPage from './ServicesPage/MeditationInfoPage';
 
 
 function App() {
@@ -23,9 +23,9 @@ function App() {
           <Route exact path="/" component={HomePage}></Route>
           <Route exact path="/about" component={AboutPage}></Route>
           <Route exact path="/pricing" component={PricingPage}></Route>
-          <Route exact path="/pilates" component={PilatesInfoPage}></Route>
+          <Route exact path="/movement" component={MovementInfoPage}></Route>
           <Route exact path="/massage" component={MassageInfoPage}></Route>
-          <Route exact path="/stretching" component={StretchingInfoPage}></Route>
+          <Route exact path="/meditation" component={MeditationInfoPage}></Route>
         </Switch>
         <div id = "contact">
             <Footer/>

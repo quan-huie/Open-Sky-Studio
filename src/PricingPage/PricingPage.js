@@ -19,9 +19,9 @@ function PricingPage() {
         </div>
 
         <div className = "pricing-section">
-          <h3>Stretching</h3>
-          <p>STRETCHING private session (30min) $50</p>
-          <p>STRETCHING private session (50min) $75</p>
+          <h3>Meditation</h3>
+          <p>MEDITATION private session (30min) $50</p>
+          <p>MEDITATION private session (50min) $75</p>
         </div>
       </div>
     );

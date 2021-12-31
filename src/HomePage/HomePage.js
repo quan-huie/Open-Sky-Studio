@@ -13,8 +13,8 @@ import studioImage3 from '../images/studio-img-3.jpg';
 //Card
 import Button from 'react-bootstrap/Button';
 import pilates from '../images/pilates.jpg';
-import massage from '../images/massage.jpg';
-import stretching from '../images/stretching.jpg';
+import massage from '../images/massage-1.jpg';
+import stretching from '../images/meditation.jpg';
 
 
 function HomePage() {
@@ -89,7 +89,7 @@ function HomePage() {
                 </Row>
             </Container>
 
-            <Container>
+            <Container fluid>
                 <Row>
                     <Col className="studio-section">
                         <h5><em>“A PLACE TO COME HOME TO YOURSELF”</em></h5>
@@ -164,7 +164,7 @@ function HomePage() {
                             <Card>
                                 <Card.Img variant="top" src={stretching} alt="A person stretchiing"/>
                                 <Card.Body>
-                                    <Card.Title>STRETCHING</Card.Title>
+                                    <Card.Title>MEDITATION</Card.Title>
                                     <Card.Text className="card-text">
                                         Live, personalized guided meditation
                                         utilizing wireless headphones to 

@@ -40,11 +40,12 @@ p {
 }
 
 .studio-section{
-    padding-bottom: 5%;
+    padding: 5% 0 5% 0;
+    font-weight: bold;
  }
 
 .studio-description {
-    padding: 3% 5%;
+    padding: 0% 5%;
 
 }
 

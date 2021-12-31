@@ -3,9 +3,9 @@ import pilates from '../images/pilates.jpg';
 import './ServicesPages.css';
 import { Container, Row, Col, } from 'react-bootstrap';
 
-function PilatesInfoPage() {
+function  MovementInfoPage() {
   return (
-    <div className="PilatesInfoPage">
+    <div className="MovementInfoPage">
       <div className="fluid-container">
         <Container>
           <Row>
@@ -48,4 +48,4 @@ function PilatesInfoPage() {
   );
 }
 
-export default PilatesInfoPage;
+export default MovementInfoPage;
