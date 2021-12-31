@@ -61,19 +61,26 @@ function HomePage() {
                 <Row>
                     <Col>
                         <p className="studio-description">
-                            Established in 1995 in Wallingford as Legacy
-                            Pilates as an authentic, classical Pilates Studio
-                            with Massage therapy, Open Sky Studio incorporates
-                            over 25 years of experience and evolution to offer
-                            an experience that feels unique & personal, catering
-                            to your specific needs.
+                        Open Sky Studio offers private and 
+                        semi- private personalized sessions
+                        that include movement, assisted 
+                        stretching, massage & meditation.
+ 
                         </p>
                         <p className="studio-description">
-                            At Open Sky Studio, every client is treated with respect,
-                            attention and individual focus. It is a place to actively
-                            participate in your own physical, mental, creative and
-                            emotional well being.
+                        Established in 1995 in Wallingford 
+                        as Legacy Pilates, Open Sky Studio 
+                        incorporates over 25 years of experience
+                        to offer sessions that are unique, 
+                        personal, and tailored to address your specific needs. 
 
+                        </p>
+                        <p className="studio-description">
+                        At Open Sky Studio, every client is 
+                        treated with respect, attention, and 
+                        individual focus. It is a place to actively
+                        participate in your own physical, mental, 
+                        creative and emotional wellbeing.
                         </p>
 
                         {/* </div> */}
@@ -116,13 +123,13 @@ function HomePage() {
                             <Card>
                                 <Card.Img variant="top" src={pilates} alt="A person teaching pilates"/>
                                 <Card.Body>
-                                    <Card.Title>PILATES</Card.Title>
+                                    <Card.Title>MOVEMENT</Card.Title>
                                     <Card.Text>
-                                        A exercise method
-                                        that
-                                        focuses on flexibility, strength and posture.
-                                        Every exercise is designed to provide ease
-                                        and efficiency and movement.
+                                        Gentle exercises to enhance 
+                                        flexibility and ease of movement.
+                                        Emphasizing joy of movement and 
+                                        positive reinforcement and promotes
+                                        energy and vitality.
                                     </Card.Text>
                                     <Link to="/pilates">
                                         <Button variant="gold">
@@ -159,9 +166,14 @@ function HomePage() {
                                 <Card.Body>
                                     <Card.Title>STRETCHING</Card.Title>
                                     <Card.Text className="card-text">
-                                        Sessions incorporate everything
-                                        in the entire studio with the emphasis on
-                                        becoming more flexible.
+                                        Live, personalized guided meditation
+                                        utilizing wireless headphones to 
+                                        minimize external distractions and
+                                        create an immersive experience.  
+                                        Each session features a combination
+                                        of soothing music, calming sound baths, 
+                                        nature audio and live instruction designed 
+                                        to carry you to your peaceful core.
                                     </Card.Text>
                                     <Link to="/stretching">
                                         <Button variant="gold">

@@ -9,20 +9,16 @@ function AboutPage() {
         <Container>
           <Row>
             <Col>
-              <h2>About Mia</h2>
+              <h2>Mia Heller</h2>
             </Col>
           </Row>
 
           <Row>
             <Col>
               <p>
-                Mia is the owner/director of Open Sky Studio
-                and has an extensive background in bodywork
-                and wellness. She studied Pilates in New York
-                City with Romana Kryzanowska (personally chosen
-                by Joseph Pilates to be the custodian of his
-                entire body of work) for three years and became
-                certified by Romana in Authentic Pilates in 1992.
+              Mia is the owner/director of Open Sky Studio
+              and has spent her life focused on movement,
+              wellness & bodywork. 
               </p>
             </Col>
           </Row>
@@ -30,11 +26,11 @@ function AboutPage() {
           <Row>
             <Col>
               <p>
-                Mia is a massage therapist licensed by The Brian
-                Utting School of Massage in 1998 and specializes
-                in Swedish, Deep tissue & Thai Yoga Massage.
-                22 years of massage experience & undivided,
-                caring attention can be felt in every massage.
+              Mia began dancing at the age of 2, began assistant
+              teaching as a teenager, earned her BFA in dance from
+              Cornish College of the Arts, she danced professionally,
+              was a Sports & Fitness Director for Royal Caribbean 
+              Cruise Line and is a lifelong student of yoga. 
               </p>
             </Col>
           </Row>
@@ -55,18 +51,42 @@ function AboutPage() {
           <Row>
             <Col>
               <p>
-                After traveling to Rishekesh, India for an intensive
-                6 week Yoga certification, Mia decided to focus her
-                energy on a deeper, more meaningful pursuit than
-                superficial physical fitness. She appreciated that
-                Yoga was so much deeper than an exercise method
-                & that ultimately it leads to stillness, meditation
-                and quieting the mind. Mia is dedicated to offering
-                a space that does not focus on the pursuit of thinness
-                and calling it wellness. Focusing on her own relationship
-                with food, exercise and her weight has illuminated a
-                deep desire to help others find peace in their bodies
-                & to be present & content with what is.
+                Mia studied Pilates in New York and was certified 
+                by Romana Kryzanowska in Authentic Pilates in 1992.
+                Mia established Legacy Pilates in 1995 as an Authentic,
+                classical Pilates Studio.  Mia became a licensed massage
+                therapist from The Brian Utting School of Massage in 1998 
+                and incorporated massage into her business to offer a more 
+                well-rounded service to her clients & to be able to understand 
+                her clients on a deeper level. 
+              </p>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col>
+              <p>
+                Mia has been meditating daily for over 17 years, 
+                has studied with many teachers and practiced different 
+                techniques through the years. In 2018 Mia traveled to 
+                Rishikesh India to become certified in yoga and meditation 
+                from the Sattva Yoga Academy. During this immersive experience, 
+                she saw that all the physical disciplines she had practiced and 
+                taught her entire life were the gateway into the ultimate goal of a 
+                much deeper, real & sustainable pursuit: Peace of Mind.
+              </p>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col>
+              <p>
+               Mia moved her studio & changed the name and focus of her 
+               business in 2020 to better reflect the evolution of her life’s 
+               work. Transitioning the primary focus from Pilates and physical 
+               fitness toward a deeper, sustainable, peaceful relationship with 
+               our bodies, our minds & our emotions.
+
               </p>
             </Col>
           </Row>
