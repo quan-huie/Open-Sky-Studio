@@ -38,19 +38,6 @@ function AboutPage() {
           <Row>
             <Col>
               <p>
-                Mia began dancing at the age of 2 and got her
-                BFA in dance from Cornish College of the Arts,
-                she danced professionally, was a Sports & fitness
-                director for Royal Caribbean Cruise Line, a lifelong
-                student of Yoga- there has never been a time in Mia’s
-                life where she wasn’t focused on physical wellness.
-              </p>
-            </Col>
-          </Row>
-
-          <Row>
-            <Col>
-              <p>
                 Mia studied Pilates in New York and was certified 
                 by Romana Kryzanowska in Authentic Pilates in 1992.
                 Mia established Legacy Pilates in 1995 as an Authentic,
