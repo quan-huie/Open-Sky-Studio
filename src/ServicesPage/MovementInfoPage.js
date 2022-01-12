@@ -20,23 +20,31 @@ function  MovementInfoPage() {
 
           <Row>
             <Col>
-              <h2>PILATES</h2>
+              <h2>Open Sky Body & Mind session</h2>
             </Col>
           </Row>
 
           <Row>
 
             <p>
-              PILATES is a specific exercise
-              method started in 1923 by Joseph
-              H Pilates that focuses on flexibility,
-              strength and posture. Every exercise
-              is designed to provide ease and efficiency
-              of movement. Emphasis on strengthening the
-              core muscles while stretching the body,
-              lengthening the spine, decompressing all
-              the joints and bringing balance to the
-              entire body. All levels and abilities welcome!
+              Joyful movement that focuses on
+              flexibility and ease of movement.
+              Emphasis on a positive mindset
+              while stretching the body, 
+              lengthening the spine, 
+              decompressing & bringing stability
+              to all the joints to provide balance 
+              to the entire body.
+            </p>
+
+            <p>
+              Some experienced hands on stretching, adjusting and 
+              massage techniques applied during the session.
+            </p>
+            
+            <p>
+              Once the body has been worked, opened & is responsive, the session will end in a short guided meditation to bring a holistic sense of peace & wellbeing. All levels and abilities welcome!
+
             </p>
           </Row>
         </Container>
