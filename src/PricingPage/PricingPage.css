@@ -2,6 +2,10 @@ h3 {
   font-weight: bold;
 }
 
+h5 {
+  text-decoration: underline;
+}
+
 .PricingPage {
   margin-top: 5%;
   margin-bottom: 10%;

@@ -16,14 +16,14 @@ function MeditationInfoPage() {
 
         <Row>
           <Col>
-          <p>
-          Live, personalized guided meditation utilizing wireless
-          headphones to minimize external distractions and create
-          an immersive experience.  Each session features a 
-          combination of soothing music, calming sound baths,
-          nature audio and live instruction designed to carry 
-          you to your peaceful core.
-        </p>
+            <p>
+              Live, personalized guided meditation utilizing wireless
+              headphones to minimize external distractions and create
+              an immersive experience.  Each session features a 
+              combination of soothing music, calming sound baths,
+              nature audio and live instruction designed to carry 
+              you to your peaceful core.
+            </p>
           </Col>
         </Row>
 

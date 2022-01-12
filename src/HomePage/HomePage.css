@@ -49,6 +49,10 @@ p {
 
 }
 
+.studio-slideshow {
+    padding-bottom: 5%;
+}
+
 @media (max-width: 900px) {
     .carousel {
       width:auto;

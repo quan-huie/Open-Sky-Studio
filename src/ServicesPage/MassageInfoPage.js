@@ -5,26 +5,28 @@ import { Container, Row, Col, } from 'react-bootstrap';
 function MassageInfoPage() {
   return (
     <div className="MassageInfoPage">
-      {/* <div className="fluid-container"> */}
-        <Container className="fluid-container">
+      <div className="fluid-container">
+        <Container>
           <Row>
             <Col>
               <h2>SWEDISH MASSAGE</h2>
 
             </Col>
           </Row>
-          <p>
-            Sometimes referred to as a
-            “Classic Massage” it is done on
-            a massage table, unclothed
-            under sheet, oils & lotions
-            are used. The pressure is generally
-            gentle to moderate with the intention
-            to promote relaxation by releasing
-            muscle tension.
-          </p>
-          <Row>
 
+          <Row>
+            <Col>
+              <p>
+                Sometimes referred to as a
+                “Classic Massage” it is done on
+                a massage table, unclothed
+                under sheet, oils & lotions
+                are used. The pressure is generally
+                gentle to moderate with the intention
+                to promote relaxation by releasing
+                muscle tension.
+              </p>
+            </Col>
           </Row>
 
         </Container>
@@ -33,7 +35,7 @@ function MassageInfoPage() {
 
 
       {/* <div className="fluid-container"> */}
-        <Container className="fluid-container">
+        <Container>
           <Row>
             <Col>
               <h2>DEEP TISSUE MASSAGE</h2>
@@ -63,7 +65,7 @@ function MassageInfoPage() {
 
 
       {/* <div className="fluid-container"> */}
-        <Container className="fluid-container">
+        <Container>
           <Row>
             <Col>
               <h2>THAI YOGA MASSAGE</h2>
@@ -88,7 +90,7 @@ function MassageInfoPage() {
         </Container>
 
 
-      {/* </div> */}
+      </div>
     </div>
   );
 }

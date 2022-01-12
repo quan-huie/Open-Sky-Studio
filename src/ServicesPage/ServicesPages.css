@@ -2,7 +2,7 @@ h2 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1em;
+  letter-spacing: normal;
 
 }
 .fluid-container {
@@ -17,8 +17,8 @@ h2 {
   margin-bottom: 2rem;
 }
 
-.stretching-header {
+/* .stretching-header {
   font-size: calc(0.4rem + 1vw);
   letter-spacing: .7vw;
-}
+} */
 
