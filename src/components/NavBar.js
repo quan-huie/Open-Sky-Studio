@@ -65,6 +65,12 @@ function NavBar() {
                                         </Link>
                                     </Nav.Link>
 
+                                    <Nav.Link className="navbar-item">
+                                        <Link to="/artwork">
+                                            Artwork
+                                        </Link>
+                                    </Nav.Link>
+
                                     <Nav.Link className="navbar-item" href="#contact">
                                         Contact Us
                                     </Nav.Link>

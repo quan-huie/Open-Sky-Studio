@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css'
-import { Container, Row, Col, Card, CardGroup } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function AboutPage() {
   return (

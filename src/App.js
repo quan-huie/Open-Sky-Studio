@@ -12,6 +12,7 @@ import PricingPage from './PricingPage/PricingPage';
 import MovementInfoPage from './ServicesPage/MovementInfoPage';
 import MassageInfoPage from './ServicesPage/MassageInfoPage';
 import MeditationInfoPage from './ServicesPage/MeditationInfoPage';
+import ArtworkPage from './ArtworkPage/ArtworkPage';
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
           <Route exact path="/movement" component={MovementInfoPage}></Route>
           <Route exact path="/massage" component={MassageInfoPage}></Route>
           <Route exact path="/meditation" component={MeditationInfoPage}></Route>
+          <Route exact path="/artwork" component={ArtworkPage}></Route>
+
         </Switch>
         <div id = "contact">
             <Footer/>

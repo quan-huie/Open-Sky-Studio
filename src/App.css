@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'LaLuxeSerif';
+  src: url(../src/fonts/LaLuxesSerif.ttf);
+}
 h2 {
   /* font-size: 1em; */
+  font-family: 'LaLuxeSerif', serif;
   text-align: center;
   line-height: 2;
   letter-spacing: 6vw;
@@ -8,6 +13,12 @@ h2 {
 
 h5 {
   font-size: 1em;
+  font-family: 'LaLuxeSerif', serif;
+
+}
+
+h3{
+  font-family: 'LaLuxeSerif', serif;
 }
 
 .App {
@@ -29,15 +40,5 @@ h5 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
