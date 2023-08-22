@@ -11,14 +11,9 @@ h2 {
   font-weight: bold;
 }
 
-h5 {
-  font-size: 1em;
+h3, h4, h5 {
   font-family: 'LaLuxeSerif', serif;
 
-}
-
-h3{
-  font-family: 'LaLuxeSerif', serif;
 }
 
 .App {
