@@ -1,0 +1,104 @@
+[
+    {
+         "key": 1,
+         "name": "FORBIDDEN LOVE",
+         "price": "$720.00",
+         "size": "30X24",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+         "image": "./img/forbidden_art.jpg",
+         "isSold": false
+     },
+     {
+         "key": 2,
+         "name": "ALONE TOGETHER",
+         "price": "$720.00",
+         "size": "24X30",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+         "image": "./img/alone_together.jpg",
+         "isSold": false
+
+     },
+     {
+        "key": 4,
+        "name": "DEEPER STILL",
+        "price": "$1,200.00",
+        "size": "40X30",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "image": "./img/deeper_still.jpg",
+        "isSold": true
+
+     },
+     {
+        "key": 2,
+        "name": "UN-BECOMING",
+        "price": "$1,800.00",
+        "size": "36X48",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "image": "./img/unbecoming.jpg",
+        "isSold": false
+
+    },
+    {
+        "key": 3,
+        "name": "EMERGING",
+        "price": "$720.00",
+        "size": "24X30",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "image": "./img/emerging.jpg",
+        "isSold": false
+    },
+    {
+        "key": 4,
+        "name": "FORCE OF NATURE",
+        "price": "$1,200.00",
+        "size": "30X40",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "image": "./img/force_of_nature.jpg",
+        "isSold": false
+    },
+    {
+        "key": 5,
+        "name": "ENCHANTED FOREST",
+        "price": "$1,500.00",
+        "size": "30X40",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "image": "./img/enchanted_forest.jpg",
+        "isSold": false
+    },
+    {
+        "key": 6,
+        "name": "FOCUS",
+        "price": "$720.00",
+        "size": "24X30",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "image": "./img/focus.jpg",
+        "isSold": false
+    },
+    {
+        "key": 4,
+        "name": "ASCENSION",
+        "price": "$720.00",
+        "size": "24X30",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "image": "./img/ascension.jpg",
+        "isSold": false
+    },
+    {
+        "key": 4,
+        "name": "GUARDIAN",
+        "price": "$1,728.00",
+        "size": "48X36",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "image": "./img/guardian.jpg",
+        "isSold": false
+    },
+    {
+        "key": 4,
+        "name": "WILD AT HEART",
+        "price": "$1,728.00",
+        "size": "36X48",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "image": "./img/wild_at_heart.jpg",
+        "isSold": false
+    }
+ ]

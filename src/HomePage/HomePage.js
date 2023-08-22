@@ -15,12 +15,40 @@ import Button from 'react-bootstrap/Button';
 import pilates from '../images/pilates.jpg';
 import massage from '../images/massage-1.jpg';
 import stretching from '../images/meditation.jpg';
+import mia_banner from '../images/mia_banner.jpg'
 
 
 function HomePage() {
     return (
         <div className="HomePage">
             <Container fluid>
+                <Row>
+                    <Col>
+                    <div className="mia_banner">
+                        <div className="banner-background" />
+                        <div className="main-image-container">
+                          <img src={mia_banner} alt="mia in the woods looking up to the sky" />
+                        </div>
+                    </div>   
+                    </Col>
+                </Row>
+                    <Col>
+                        <div className="about-mia" >
+                            <h2>About Mia</h2>
+                            <p className="studio-description" >
+                                Mia is continually growing and
+                                evolving her skills. She has spent
+                                her entire life dedicated to helping
+                                others to become the best versions
+                                of themselves. Her intention is to
+                                deeply listen and help every client
+                                feel better on every level for having
+                                spent time in her studio.
+
+                            </p>
+                        </div>
+                    </Col>
+                
                 <Row>
                     <Col className="studio-slideshow">
                         <div className="">
@@ -92,7 +120,7 @@ function HomePage() {
             <Container fluid>
                 <Row>
                     <Col className="studio-section">
-                        <h5><em>“A PLACE TO COME HOME TO YOURSELF”</em></h5>
+                        <h4><em>“A PLACE TO COME HOME TO YOURSELF”</em></h4>
                     </Col>
                 </Row>
             </Container>
@@ -131,7 +159,7 @@ function HomePage() {
                                         positive reinforcement and promotes
                                         energy and vitality.
                                     </Card.Text>
-                                    <Link to="/pilates">
+                                    <Link to="/movement">
                                         <Button variant="gold">
                                             Learn More
                                         </Button>
@@ -175,7 +203,7 @@ function HomePage() {
                                         nature audio and live instruction designed 
                                         to carry you to your peaceful core.
                                     </Card.Text>
-                                    <Link to="/stretching">
+                                    <Link to="/meditation">
                                         <Button variant="gold">
                                             Learn More
                                         </Button>
@@ -191,22 +219,10 @@ function HomePage() {
 
             </Container>
 
-            <div className="about-mia" >
-                <h2>About Mia</h2>
-                <p className="studio-description" >
-                    Mia is continually growing and
-                    evolving her skills. She has spent
-                    her entire life dedicated to helping
-                    others to become the best versions
-                    of themselves. Her intention is to
-                    deeply listen and help every client
-                    feel better on every level for having
-                    spent time in her studio.
-
-                </p>
-
+            
 
                 <div id="testimonials">
+                    <h2>Testimonials</h2>
                     <Carousel>
                         <Carousel.Item>
                             <img
@@ -275,16 +291,15 @@ function HomePage() {
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
+
+                    <Link to="/about">
+                        <Button variant="gold">Learn More About Mia</Button>
+                    </Link>
                 </div>
 
-                <Link to="/about">
-                    <Button variant="gold">Learn More</Button>
-                </Link>
+
             </div>
 
-
-
-        </div >
     );
 }
 
