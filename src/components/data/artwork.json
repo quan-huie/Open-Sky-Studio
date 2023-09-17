@@ -4,7 +4,7 @@
          "name": "FORBIDDEN LOVE",
          "price": "$720.00",
          "size": "30X24",
-         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+         "description": "N/A",
          "image": "./img/forbidden_art.jpg",
          "isSold": false
      },
@@ -13,7 +13,7 @@
          "name": "ALONE TOGETHER",
          "price": "$720.00",
          "size": "24X30",
-         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+         "description": "N/A",
          "image": "./img/alone_together.jpg",
          "isSold": false
 
@@ -23,7 +23,7 @@
         "name": "DEEPER STILL",
         "price": "$1,200.00",
         "size": "40X30",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "description": "N/A",
         "image": "./img/deeper_still.jpg",
         "isSold": true
 
@@ -33,7 +33,7 @@
         "name": "UN-BECOMING",
         "price": "$1,800.00",
         "size": "36X48",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "description": "N/A",
         "image": "./img/unbecoming.jpg",
         "isSold": false
 
@@ -43,7 +43,7 @@
         "name": "EMERGING",
         "price": "$720.00",
         "size": "24X30",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "description": "N/A",
         "image": "./img/emerging.jpg",
         "isSold": false
     },
@@ -52,7 +52,7 @@
         "name": "FORCE OF NATURE",
         "price": "$1,200.00",
         "size": "30X40",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "description": "N/A",
         "image": "./img/force_of_nature.jpg",
         "isSold": false
     },
@@ -79,7 +79,7 @@
         "name": "ASCENSION",
         "price": "$720.00",
         "size": "24X30",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "description": "N/A",
         "image": "./img/ascension.jpg",
         "isSold": false
     },
@@ -88,7 +88,7 @@
         "name": "GUARDIAN",
         "price": "$1,728.00",
         "size": "48X36",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "description": "N/A",
         "image": "./img/guardian.jpg",
         "isSold": false
     },
@@ -97,7 +97,7 @@
         "name": "WILD AT HEART",
         "price": "$1,728.00",
         "size": "36X48",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+        "description": "N/A",
         "image": "./img/wild_at_heart.jpg",
         "isSold": false
     }

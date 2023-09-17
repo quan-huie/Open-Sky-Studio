@@ -1,6 +1,6 @@
 import React from 'react';
 import './ArtworkPage.css'
-import { Container, Row, Col, Card, CardGroup } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import artData from '../components/data/artwork.json';
 
 function ArtworkPage() {
@@ -81,6 +81,10 @@ function ArtCard({ artwork }) {
                   <Card.Title>{artwork.name}</Card.Title>
                   <Card.Text>Price: {artwork.price}</Card.Text>
                   <Card.Text>Size: {artwork.size}</Card.Text>
+
+                  {/* If you want to add descriptions, uncomment this. Won't work on long text. */}
+                  {/* <Card.Text>: {artwork.description}</Card.Text> */}
+
                 </div>
               </div>
             </div>
