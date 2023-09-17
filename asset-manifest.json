@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7dca9d54.chunk.css",
-    "main.js": "/static/js/main.c740348f.chunk.js",
-    "main.js.map": "/static/js/main.c740348f.chunk.js.map",
+    "main.css": "/static/css/main.f92acb98.chunk.css",
+    "main.js": "/static/js/main.a74a8c5f.chunk.js",
+    "main.js.map": "/static/js/main.a74a8c5f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b38caf4a.js",
     "runtime-main.js.map": "/static/js/runtime-main.b38caf4a.js.map",
     "static/css/2.9d2f89eb.chunk.css": "/static/css/2.9d2f89eb.chunk.css",
-    "static/js/2.fa47a7d7.chunk.js": "/static/js/2.fa47a7d7.chunk.js",
-    "static/js/2.fa47a7d7.chunk.js.map": "/static/js/2.fa47a7d7.chunk.js.map",
+    "static/js/2.62b892a7.chunk.js": "/static/js/2.62b892a7.chunk.js",
+    "static/js/2.62b892a7.chunk.js.map": "/static/js/2.62b892a7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.158a3e969af526ad4e6cfa494e759c88.js": "/precache-manifest.158a3e969af526ad4e6cfa494e759c88.js",
+    "precache-manifest.b85c42ef65314dfb556eb134ab5129cf.js": "/precache-manifest.b85c42ef65314dfb556eb134ab5129cf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9d2f89eb.chunk.css.map": "/static/css/2.9d2f89eb.chunk.css.map",
-    "static/css/main.7dca9d54.chunk.css.map": "/static/css/main.7dca9d54.chunk.css.map",
-    "static/js/2.fa47a7d7.chunk.js.LICENSE.txt": "/static/js/2.fa47a7d7.chunk.js.LICENSE.txt",
+    "static/css/main.f92acb98.chunk.css.map": "/static/css/main.f92acb98.chunk.css.map",
+    "static/js/2.62b892a7.chunk.js.LICENSE.txt": "/static/js/2.62b892a7.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/LaLuxesSerif.c468c3c0.ttf",
     "static/media/logo.png": "/static/media/logo.e730c463.png",
     "static/media/massage-1.jpg": "/static/media/massage-1.b9168e38.jpg",
-    "static/media/meditation.jpg": "/static/media/meditation.5bd337a9.jpg",
+    "static/media/meditation.jpg": "/static/media/meditation.4634db88.jpg",
+    "static/media/HomePage.css": "/static/media/mia_banner.0051aed3.jpg",
     "static/media/pilates.jpg": "/static/media/pilates.1f34c27f.jpg",
     "static/media/studio-img-1.jpg": "/static/media/studio-img-1.374300df.jpg",
     "static/media/studio-img-2.jpg": "/static/media/studio-img-2.5d7afc78.jpg",
@@ -25,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.b38caf4a.js",
     "static/css/2.9d2f89eb.chunk.css",
-    "static/js/2.fa47a7d7.chunk.js",
-    "static/css/main.7dca9d54.chunk.css",
-    "static/js/main.c740348f.chunk.js"
+    "static/js/2.62b892a7.chunk.js",
+    "static/css/main.f92acb98.chunk.css",
+    "static/js/main.a74a8c5f.chunk.js"
   ]
 }
