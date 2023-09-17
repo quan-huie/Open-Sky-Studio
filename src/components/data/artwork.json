@@ -25,7 +25,7 @@
         "size": "40X30",
         "description": "N/A",
         "image": "./img/deeper_still.jpg",
-        "isSold": true
+        "isSold": false
 
      },
      {
