@@ -9,6 +9,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import studioImage1 from '../images/studio-img-1.jpg';
 import studioImage2 from '../images/studio-img-2.jpg';
 import studioImage3 from '../images/studio-img-3.jpg';
+import studioImage4 from '../images/studio-img-4.jpg';
 
 //Card
 import Button from 'react-bootstrap/Button';
@@ -53,6 +54,13 @@ function HomePage() {
                     <Col className="studio-slideshow">
                         <div className="">
                             <Carousel>
+                            <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={studioImage4}
+                                        alt="outside the studio"
+                                    />
+                                </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
@@ -120,7 +128,7 @@ function HomePage() {
             <Container fluid>
                 <Row>
                     <Col className="studio-section">
-                        <h4><em>“A PLACE TO COME HOME TO YOURSELF”</em></h4>
+                        <h4>“A PLACE TO COME HOME TO YOURSELF”</h4>
                     </Col>
                 </Row>
             </Container>

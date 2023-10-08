@@ -1,0 +1,40 @@
+.circle-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.circle-image {
+    width: 150px; /* Set a fixed width for the circle */
+    height: 150px; /* Set a fixed height for the circle */
+    border-radius: 50%; /* Makes the container a circle */
+    overflow: hidden; /* Ensures the image stays within the circular shape */
+    margin-right: 20px; /* Add some space between the circle and text */
+}
+
+.circle-image img {
+    width: 100%; /* Makes sure the image fills the circular container */
+    height: 100%; /* Makes sure the image fills the circular container */
+    object-fit: cover; /* Ensures the image retains its aspect ratio within the circle */
+}
+
+.text-container {
+    flex: 1; /* Allows the text container to take up remaining space */
+    text-align: left; /* Aligns text to the left */
+}
+
+@media (max-width: 768px) {
+    .circle-container {
+        flex-direction: column; /* Stacks the circle and text vertically on small screens */
+        align-items: center; /* Centers items on small screens */
+    }
+
+    .circle-image {
+        margin-right: 0; /* Removes margin on small screens */
+        margin-bottom: 20px; /* Adds space between circle and text on small screens */
+    }
+
+    .text-container {
+        text-align: center;
+    }
+}

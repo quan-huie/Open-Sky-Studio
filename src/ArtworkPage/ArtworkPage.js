@@ -2,19 +2,32 @@ import React from 'react';
 import './ArtworkPage.css'
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import artData from '../components/data/artwork.json';
+import ProfileComponent from '../components/ProfileHeader';
+// import paintingPicture from '../images/mia_painting.jpg';
 
 function ArtworkPage() {
+  const paintingPicture = './img/mia_painting.jpg'; // Define your picture path here
+
   return (
     <div className="ArtworkPage">
       <div className="about-section">
+      <h2>Mia's Artwork</h2>
+
         <Container>
           <Row>
             <Col>
-              <h2>Artwork</h2>
+              <ProfileComponent
+                profilePic={paintingPicture}
+                profilePicDesc="A picture of Mia with showing her palms for of colorful paint"
+                profileTitle="Mia's Art"
+                profileText="In the style of mystical realism, Mia’s dream-like paintings activate the viewer’s 
+              imagination with evocative images of nature. Mia is a multimedia painter, 
+              utilizing acrylics, markers & oil paints, finished in a high gloss varnish. "
+              />
             </Col>
           </Row>
 
-          <Row>
+          {/* <Row>
             <Col>
               <p>
               In the style of mystical realism, Mia’s dream-like paintings activate the viewer’s 
@@ -22,7 +35,7 @@ function ArtworkPage() {
               utilizing acrylics, markers & oil paints, finished in a high gloss varnish. 
               </p>
             </Col>
-          </Row>
+          </Row> */}
 
           <Row>
             <Col>

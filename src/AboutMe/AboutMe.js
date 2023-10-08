@@ -1,8 +1,11 @@
 import React from 'react';
 import './AboutMe.css'
 import { Container, Row, Col } from 'react-bootstrap';
+import ProfileComponent from '../components/ProfileHeader';
 
 function AboutPage() {
+
+  const miaProfile = './img/about-mia.jpg';
   return (
     <div className="AboutPage">
       <div className="about-section">
@@ -10,10 +13,18 @@ function AboutPage() {
           <Row>
             <Col>
               <h2>Mia Heller</h2>
+              <ProfileComponent
+                profilePic={miaProfile}
+                profilePicDesc="A picture of Mia smiling with a hand outstretched"
+                profileTitle="About Mia"
+                profileText=" Mia is the owner/director of Open Sky Studio
+                and has spent her life focused on movement,
+                wellness & bodywork. "
+              />
             </Col>
           </Row>
 
-          <Row>
+          {/* <Row>
             <Col>
               <p>
               Mia is the owner/director of Open Sky Studio
@@ -21,7 +32,7 @@ function AboutPage() {
               wellness & bodywork. 
               </p>
             </Col>
-          </Row>
+          </Row> */}
 
           <Row>
             <Col>
