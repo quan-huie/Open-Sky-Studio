@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a82ba52.css",
+    "main.js": "/static/js/main.4f09e2ee.js",
+    "static/media/massage-1.jpg": "/static/media/massage-1.1b024ad603397786816c.jpg",
+    "static/media/pilates.jpg": "/static/media/pilates.38bc1a14e3889ecfea17.jpg",
+    "static/media/meditation.jpg": "/static/media/meditation.96ff6b7743bcdf8442bf.jpg",
+    "static/media/studio-img-4.jpg": "/static/media/studio-img-4.d3a178d43643b91cc56d.jpg",
+    "static/media/studio-img-1.jpg": "/static/media/studio-img-1.9ee5c9da57c23c0829ed.jpg",
+    "static/media/mia_banner.jpg": "/static/media/mia_banner.e39fd95fcb883802979a.jpg",
+    "static/media/studio-img-3.jpg": "/static/media/studio-img-3.c2dbe55718a19ec4aeb5.jpg",
+    "static/media/logo.png": "/static/media/logo.bfc9ef00d141e1c9f244.png",
+    "static/media/studio-img-2.jpg": "/static/media/studio-img-2.dda169da0af841a8b251.jpg",
+    "static/media/LaLuxesSerif.ttf": "/static/media/LaLuxesSerif.92b68e5d34df75b42779.ttf",
+    "index.html": "/index.html",
+    "main.4a82ba52.css.map": "/static/css/main.4a82ba52.css.map",
+    "main.4f09e2ee.js.map": "/static/js/main.4f09e2ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a82ba52.css",
+    "static/js/main.4f09e2ee.js"
+  ]
+}
