@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 //page components
 import AboutPage from './AboutMe/AboutMe';
@@ -20,16 +20,15 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        <Switch>
-          <Route exact path="/" component={HomePage}></Route>
-          <Route exact path="/about" component={AboutPage}></Route>
-          <Route exact path="/pricing" component={PricingPage}></Route>
-          <Route exact path="/movement" component={MovementInfoPage}></Route>
-          <Route exact path="/massage" component={MassageInfoPage}></Route>
-          <Route exact path="/meditation" component={MeditationInfoPage}></Route>
-          <Route exact path="/artwork" component={ArtworkPage}></Route>
-
-        </Switch>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/pricing" element={<PricingPage />} />
+          <Route path="/movement" element={<MovementInfoPage />} />
+          <Route path="/massage" element={<MassageInfoPage />} />
+          <Route path="/meditation" element={<MeditationInfoPage />} />
+          <Route path="/artwork" element={<ArtworkPage />} />
+        </Routes>
         <div id = "contact">
             <Footer/>
         </div>
