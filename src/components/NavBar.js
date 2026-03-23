@@ -34,38 +34,38 @@ function NavBar() {
                                 <Nav
                                     className="mr-auto"
                                 >
-                                    <Nav.Link className="navbar-item">
+                                    <Nav.Link as="div" className="navbar-item">
                                         <Link to="/about">
                                             About Mia
                                         </Link>
                                     </Nav.Link>
-                                    <Nav.Link className="navbar-item">
+                                    <Nav.Link as="div" className="navbar-item">
 
                                         <Link to="/movement">
                                             Movement
                                         </Link>
                                     </Nav.Link>
 
-                                    <Nav.Link className="navbar-item">
+                                    <Nav.Link as="div" className="navbar-item">
                                         <Link to="/massage">
                                             Massage
                                         </Link>
                                     </Nav.Link>
 
-                                    <Nav.Link className="navbar-item">
+                                    <Nav.Link as="div" className="navbar-item">
 
                                         <Link to="/meditation">
                                             Meditation
                                         </Link>
                                     </Nav.Link>
 
-                                    <Nav.Link className="navbar-item">
+                                    <Nav.Link as="div" className="navbar-item">
                                         <Link to="/pricing">
                                             Pricing
                                         </Link>
                                     </Nav.Link>
 
-                                    <Nav.Link className="navbar-item">
+                                    <Nav.Link as="div" className="navbar-item">
                                         <Link to="/artwork">
                                             Artwork
                                         </Link>

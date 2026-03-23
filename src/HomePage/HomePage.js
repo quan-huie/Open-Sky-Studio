@@ -235,7 +235,6 @@ function HomePage() {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src=""
                                 alt=" "
                             />
                             <Carousel.Caption>
